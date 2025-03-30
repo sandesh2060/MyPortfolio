@@ -1,0 +1,161 @@
+.iphone {
+  height: 43vw;
+  width: 23vw;
+  /* background-color: #fff; */
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  transform: translate(-50%, -50%);
+}
+.iphone-body {
+  height: 42vw;
+  width: 22vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  border-radius: 50px;
+}
+.iphone-layer {
+  height: 41.6vw;
+  width: 21.6vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000;
+  border-radius: 50px;
+}
+.iphone-screen {
+  height: 41vw;
+  width: 21vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(https://i.pinimg.com/564x/43/9b/b1/439bb111a216eee2fdafecc99861ec17.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  /* overflow: hidden; */
+}
+.notch {
+  height: 1.6vw;
+  width: 6vw;
+  background-color: #000;
+  position: absolute;
+  top: 0.7vw;
+  left: 7.6vw;
+  border-radius: 15px;
+}
+.volume {
+  height: 10vw;
+  width: 2vw;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vw;
+  position: absolute;
+  top: 6vw;
+  left: -0.3vw;
+  /* z-index: 1; */
+}
+.volume .left {
+  height: 4vw;
+  width: 1vw;
+  position: absolute;
+  left: 0;
+  background-color: #000;
+  border-radius: 8px;
+  border-left: 0.3px solid #fff;
+}
+.power {
+  height: 5vw;
+  width: 1vw;
+  position: absolute;
+  left: 21.2vw;
+  top: 10vw;
+  background-color: #000;
+  border-radius: 8px;
+  border-right: 0.3px solid #fff;
+  /* z-index: 1; */
+}
+.volume .right {
+  height: 4vw;
+  width: 1vw;
+  position: absolute;
+  left: 0;
+  top: 6vw;
+  background-color: #000;
+  border-radius: 8px;
+  border-left: 0.3px solid #fff;
+}
+/* ----------input-form-here------- */
+.container {
+  position: absolute;
+  left: 0vw;
+  top: 10vw;
+  width: 20vw;
+  height: 21vw;
+  background-color: #00000033;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container h3 {
+  font-size: 3vw;
+  color: #fff;
+  margin-bottom: 2vw;
+}
+.container button {
+  color: #fff;
+  margin-top: 15vw;
+  margin-left: 5.6vw;
+  background-color: #05a13c;
+  border-radius: 15px;
+  height: 1vw;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+///////
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  background-color: rgba(0, 0, 0, 0.321);
+}
+.input-fields input {
+  height: 1.7vw;
+  padding: 0 1vw;
+}
+.or {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 1vw;
+}
+.or p {
+  color: #fff;
+  font-size: 0.4vw;
+  margin: 0 1vw;
+}
+.or div {
+  height: 0.1vw;
+  background-color: #fff;
+  width: 6vw;
+}
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  margin-top: 1vw;
+}
+.contact-links a {
+  text-decoration: none;
+  color: #fff;
+}
